@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个网站</title>
+    <meta name="description" content="这是用VS Code制作的网页">
+    <meta name="author" content="WEI">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">我的网站</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>欢迎来到我的第一个网站</h1>
+            <p>Welcome to my website</p>
+        </section>
+        <section class="content-section">
+            <h2>1. 关于这个网页</h2>
+            <p>这是我跟着课件用 VS Code 制作的基础网页，包含文本、列表、链接等内容。</p>
+        </section>
+        <section class="content-section">
+            <h2>2. 我学习的知识点</h2>
+            <div class="two-column">
+                <div class="column">
+                    <h3>2.1 基础标签（无序列表）</h3>
+                    <ul>
+                        <li>标题标签：h1-h6</li>
+                        <li>段落标签：p</li>
+                        <li>链接标签：a</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>2.2 学习步骤（有序列表）</h3>
+                    <ol>
+                        <li>安装 VS Code 和 Live Server</li>
+                        <li>创建文件夹和 HTML 文件</li>
+                        <li>编写 HTML 代码</li>
+                        <li>用 Live Server 预览</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="content-section">
+            <h2>3. 网页链接</h2>
+            <p>访问 <a href="https://www.hkbu.edu.hk/" target="_blank" class="link">香港浸会大学官网</a> 了解更多资讯。</p>
+        </section>
+        <section class="content-section">
+            <h2>4. 图片展示</h2>
+            <h3>4.1 香港浸会大学图片</h3>
+            <div class="image-gallery">
+                <img src="images/logo.jpg" alt="本地图片1" class="gallery-img" >
+                <img src="images/logo2.jpg" alt="本地图片2" class="gallery-img" >
+                <img src="images/logo3.jpg" alt="本地图片3" class="gallery-img" >
+            </div>
+            <h3>4.2 随机网络图片</h3>
+            <img src="https://picsum.photos/400/300" alt="随机测试图片" class="featured-img">
+        </section>
+        <section class="content-section">
+            <h2>5. 我的课程表</h2>
+            <table class="course-table">
+                <caption>我的学习课程表</caption>
+                <thead>
+                    <tr>
+                        <th>课程代码</th>
+                        <th>课程名称</th>
+                        <th>详情链接</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>COMM7960</td>
+                        <td>AI 交互媒体设计</td>
+                        <td><a href="https://comd.hkbu.edu.hk/masters/en/course/course-macomm.html" class="link">查看详情</a></td>
+                    </tr>
+                    <tr>
+                        <td>COMM7010</td>
+                        <td>传播学基础</td>
+                        <td><a href="https://comd.hkbu.edu.hk/masters/en/course/course-macomm.html" class="link">查看详情</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-section">
+            <h2>6. 关于我</h2>
+            <p>你好，我是 Wei — 我对互动媒体与网页设计充满热情，喜欢用代码与视觉讲故事。</p>
+            <p>了解更多请访问： <a href="https://wei0217.wixsite.com/derek" target="_blank" class="link">我的故事</a></p>
+        </section>
+
+        <section class="content-section">
+            <h2>7. 我最喜欢的游戏视频</h2>
+            <p>观看视频： <a href="https://www.bilibili.com/video/BV16erhBREXR/?spm_id_from=333.1387.upload.video_card.click&vd_source=8d4b6cd1032fe260a79d58e0c69202c8" target="_blank" class="link">点击这里观看</a></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 我的网站. 保留所有权利。</p>
+            <p>页面作者：WEI</p>
+        </div>
+    </footer>
+</body>
